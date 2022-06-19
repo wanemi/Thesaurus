@@ -115,6 +115,18 @@
   font-weight: 400;
 }
 
+@media (max-width: 390px) {
+  .plans {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .plans {
+    padding: 0.5rem 1.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .free {
     width: 300px;

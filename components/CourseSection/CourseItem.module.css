@@ -112,6 +112,23 @@
   width: 50%;
 }
 
+@media (max-width: 360px) {
+  .card {
+    width: 330px;
+    height: 330px;
+    padding: 8px 8px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 390px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
 @media (min-width: 768px) {
   .card {
     flex-direction: row;

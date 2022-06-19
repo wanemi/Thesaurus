@@ -13,7 +13,7 @@ const SecondSection = () => {
               className={classes.imgcont}
             />
           </div>
-          <div>
+          <div className={classes.hei}>
             <h4 className={classes.text1}>Learn Unique Skills</h4>
             <p className={classes.text2}>
               Javascript, node js, react js and many more
@@ -28,7 +28,7 @@ const SecondSection = () => {
               className={classes.imgcont}
             />
           </div>
-          <div>
+          <div className={classes.hei}>
             <h4 className={classes.text1}>Get Certified</h4>
             <p className={classes.text2}>
               And recognized by top professionals on linkdln
@@ -46,7 +46,7 @@ const SecondSection = () => {
               className={classes.imgcont}
             />
           </div>
-          <div>
+          <div className={classes.hei}>
             <h4 className={classes.text1}>Join weekly project</h4>
             <p className={classes.text2}>
               Challenge yourself with real life project
@@ -57,7 +57,7 @@ const SecondSection = () => {
           <div className={classes.image}>
             <img src="/images/job.png" alt="job" className={classes.imgcont} />
           </div>
-          <div>
+          <div className={classes.hei}>
             <h4 className={classes.text1}>Create Opportunities</h4>
             <p className={classes.text2}>Set yourself ahead of the pack</p>
           </div>

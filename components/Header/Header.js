@@ -4,6 +4,7 @@ import classes from "./Header.module.css";
 import Link from "next/link";
 import ResponsiveNav from "./ResponsiveNav";
 import BackDrop from "./BackDrop";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -24,31 +25,40 @@ const Header = () => {
           <nav className={classes.drawer}>
             <ul className={classes.links}>
               <li>
-                <Link href="/Courses"><a>Courses</a></Link>
+                <Link href="/Courses">
+                  <a>Courses</a>
+                </Link>
               </li>
               <li>
-                <Link href="/Pricing"><a>Pricing</a></Link>
+                <Link href="/Pricing">
+                  <a>Pricing</a>
+                </Link>
               </li>
             </ul>
           </nav>
         </ResponsiveNav>
       )}
       <header className={classes.mainheader}>
-        <button className={classes.hamburger} onClick={openDrawer}>
-          <span />
-          <span />
-          <span />
-        </button>
         <div className={classes.th}>
-          <Link href="/"><a>Thesaurus</a></Link>
+          <Link href="/">
+            <a>Thesaurus</a>
+          </Link>
         </div>
+        <div className={classes.ricon} onClick={openDrawer}>
+          <GiHamburgerMenu />
+        </div>
+
         <nav className={classes.nav}>
           <ul>
             <li>
-              <Link href="/Courses"><a>Courses</a></Link>
+              <Link href="/Courses">
+                <a>Courses</a>
+              </Link>
             </li>
             <li>
-              <Link href="/Pricing"><a>Pricing</a></Link>
+              <Link href="/Pricing">
+                <a>Pricing</a>
+              </Link>
             </li>
           </ul>
         </nav>

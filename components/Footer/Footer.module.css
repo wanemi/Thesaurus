@@ -18,7 +18,10 @@
     font-weight: 400;
     cursor: pointer;
     text-align: center;
+}
 
+.fline h2 {
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -34,4 +37,9 @@
     .fline p {
         text-align: left;
     }
+
+    .fline h2 {
+        text-align: left;
+    }
+    
   }

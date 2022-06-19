@@ -64,3 +64,9 @@
   fill: #21bf96;
   color: #21bf96;
 }
+
+@media (max-width: 390px) {
+  .test {
+    margin-bottom: 1.5rem;
+  }
+}

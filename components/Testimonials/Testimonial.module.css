@@ -9,13 +9,14 @@
 }
 
 .section h2 {
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 25px;
+    width: 100%;
+    line-height: 40px;
     color: #002853;
     font-weight: 600;
     text-align: center;
     align-items: center;
-    display: block;
+    display: inline-block;
 }
 
 .card {
