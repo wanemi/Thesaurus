@@ -1,0 +1,201 @@
+.plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 0.5rem 3rem;
+  background-color: #fff;
+}
+
+.free {
+  padding: 0rem 2rem;
+  margin-top: 1rem;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  width: 315px;
+  height: 315px;
+}
+
+.basic {
+  padding: 1.25rem;
+  margin-top: 1rem;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  width: 320px;
+  height: 432px;
+}
+
+.pro {
+  padding: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  width: 320px;
+  height: 432px;
+}
+
+.free h3 {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.free h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.free p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.cta {
+  padding: 0.75rem 1rem;
+  border-radius: 9999px;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  cursor: pointer;
+  background-color: hsl(248, 100%, 60.4%);
+  border-color: #fff0;
+  color: #fff;
+  width: 152px;
+  height: 20px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.basic h3 {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.basic h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.basic p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.pro h3 {
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.pro h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.pro p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .free {
+    width: 300px;
+    height: 430px;
+  }
+
+  .basic {
+    width: 340px;
+    height: 530px;
+  }
+
+  .pro {
+    width: 340px;
+    height: 530px;
+  }
+  .plans {
+    flex-direction: row;
+    gap: 10px;
+    padding: 0.5rem 6rem;
+  }
+
+  .basic {
+    padding: 1.25rem;
+    margin: 1rem;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #fff;
+    width: 340px;
+    height: 530px;
+    margin-top: -3rem;
+  }
+
+  .free h3 {
+    line-height: 1;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .basic h3 {
+    line-height: 1;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .pro h3 {
+    line-height: 1;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .free p {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  .basic p {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  .pro p {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  .free h4 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .basic h4 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .pro h4 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,77 @@
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  padding: 4.5rem 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.fdiv h1 {
+  color: #041836;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
+.fdiv h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: black;
+}
+
+.fdiv a {
+  width: 165px;
+  height: 35px;
+  color: #ffff;
+  background-color: black;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.image {
+  width: 100%;
+  max-width: 580px;
+  display: inline-block;
+}
+
+.girl {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .first {
+    flex-direction: row;
+    gap: 10px;
+    height: 601px;
+    padding: 0.5rem 6rem;
+    text-align: left;
+    align-items: left;
+  }
+
+  .fdiv h1 {
+    font-size: 88px;
+    line-height: 86px;
+  }
+
+  .fdiv h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: black;
+    width: 80%;
+  }
+
+  .fdiv a {
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+  }
+}

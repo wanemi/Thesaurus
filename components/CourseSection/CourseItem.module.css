@@ -1,0 +1,154 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 15px 15px;
+  border-radius: 20px 20px 20px 20px;
+  width: 340px;
+  height: 340px;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.icont {
+  width: 310px;
+  height: 120px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.icont img {
+  object-fit: cover;
+  height: 120px;
+  width: 310px;
+  border-radius: 15px;
+}
+
+.content {
+  width: 100%;
+  align-items: flex-start;
+  height: 100%;
+  margin-top: 0rem;
+  padding: 0;
+}
+
+.content h1 {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  color: #041836;
+}
+
+.desc {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: -0.5rem;
+  height: 30%;
+}
+
+.inst {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 55%;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+
+.instruct {
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #ffffff;
+  border-radius: 55px 55px 55px 55px;
+}
+
+.instruct img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 55px 55px 55px 55px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 40px;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.name small {
+  color: #90a9c5;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.name h4 {
+  margin-top: -0.2rem;
+  color: #002853;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.content a {
+  margin-bottom: 2rem;
+  white-space: nowrap;
+  padding: 5px 10px;
+  color: #2e7daf;
+  font-size: 12px;
+  font-weight: 700;
+  border: solid 1px #2e7daf;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    padding: 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    width: 540px;
+    height: 250px;
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .icont {
+    width: 45%;
+    height: 100%;
+  }
+
+  .icont img {
+    height: 220px;
+    width: 270px;
+  }
+
+  .content {
+    width: 55%;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: -1rem;
+    padding: 0;
+  }
+
+  .content h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .desc {
+    font-size: 17px;
+    margin-top: -0.5rem;
+    height: 45%;
+  }
+}

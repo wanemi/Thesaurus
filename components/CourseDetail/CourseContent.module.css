@@ -1,0 +1,29 @@
+.section {
+    width: 100%;
+    padding: 2.5rem 2rem;
+    background-color: #ffff;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.mocont {
+    border-radius: 4px;
+    border: 1px solid hsla(0,0%,0%,8%);
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding: 2.5rem 6rem;
+    } 
+}
+
+
+
+
+

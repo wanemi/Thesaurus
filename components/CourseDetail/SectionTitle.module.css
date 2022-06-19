@@ -1,0 +1,65 @@
+.module {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+}
+
+.lesson {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-right: 0.5rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon {
+  font-size: 1.4rem;
+  font-weight: 600;
+  fill: black;
+}
+
+.icont {
+  width: 20px;
+  height: 20px;
+}
+
+.module p {
+  font-size: 0.8rem;
+  line-height: 1.7;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .module p {
+    font-size: 1rem;
+  }
+
+  .lesson {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

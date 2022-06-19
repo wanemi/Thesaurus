@@ -1,0 +1,52 @@
+.cast {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 0px;
+}
+
+.castcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    border-top: 1px solid hsla(0,0%,0%,8%);
+    border-radius: 4px;
+    height: 47px;
+}
+
+.lesson2 {
+    color: #0f172a;
+    font-weight: 400;
+}
+
+.time2 {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    font-weight: 400;
+}
+
+.icon {
+    font-size: 1.4rem;
+    font-weight: 600;
+    fill: black;
+}
+
+.icont {
+    width: 20px;
+    height: 20px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    background-color: #ffff;
+    color: #ffff;
+    align-items: center;
+}
+
+.fline p {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        gap: 10px;
+        height: 320px;
+        padding: 0.5rem 6rem;
+        align-items: center;
+        align-items: center;
+    }
+
+    .fline p {
+        text-align: left;
+    }
+  }

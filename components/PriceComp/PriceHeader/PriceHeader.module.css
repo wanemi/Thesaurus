@@ -1,0 +1,27 @@
+.planhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    padding: 0.5rem 3rem;
+}
+
+.planhead h2 {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .planhead {
+        padding: 0.5rem 6rem;
+    }
+
+    .planhead h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+  }

@@ -1,0 +1,112 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 10px;
+  width: 100%;
+  padding: 2.5rem 3rem;
+  align-items: right;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.desc h1 {
+  text-shadow: 4px 4px 0 #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+
+.inst {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  align-items: flex-end;
+  align-self: flex-end;
+  text-align: end;
+}
+
+.instruct {
+  width: 100px;
+  height: 100px;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid hsla(0, 0%, 100%, 100%);
+}
+
+.instruct img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author h4 {
+  line-height: 1.25;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.author p {
+  line-height: 1.4;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.about {
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+  text-align: end;
+}
+
+@media (min-width: 768px) {
+  .desc h1 {
+    font-size: 5.5rem;
+  }
+
+  .inst {
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    align-self: flex-end;
+    text-align: center;
+  }
+
+  .instruct {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .about {
+    font-size: 1.25rem;
+  }
+
+  .section {
+    padding: 2.5rem 6rem;
+  }
+}
