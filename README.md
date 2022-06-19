@@ -1,2 +1,2 @@
 # Thesaurus
-a learning management system built with NEXTJS
+A learning management system built with NEXTJS and firebase
